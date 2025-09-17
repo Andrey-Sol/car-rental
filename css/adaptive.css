@@ -1,0 +1,740 @@
+
+@media screen and (max-width: 1499px) {
+    .main-image {
+        top: -10px;
+        left: 60px;
+    }
+
+    .main-container {
+        margin-bottom: 220px;
+    }
+}
+
+@media screen and (max-width: 1339px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main-image {
+        top: 70px;
+        left: -50px;
+    }
+
+    .main-container {
+        margin-bottom: 300px;
+    }
+
+    .order-info {
+        margin-right: 65px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .main-image {
+        top: 120px;
+        left: -180px;
+    }
+
+    .main-container {
+        margin-bottom: 350px;
+    }
+
+    .about-second-item-image {
+        width: 550px;
+        left: 0;
+    }
+
+    .about-second-item-image img {
+        width: 100%;
+    }
+
+    .second-item-title {
+        margin-left: 550px;
+    }
+
+    .second-item-description {
+        margin-left: 550px;
+        width: 400px;
+    }
+
+    .advantage {
+        width: 296px;
+    }
+
+    .location-map {
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .main-menu-list {
+        width: 600px;
+    }
+
+    .main-image {
+        width: 1050px;
+        top: 175px;
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .about-first-item, .about-second-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-item-text {
+        margin-bottom: 36px;
+    }
+
+    .second-item-description {
+        margin-bottom: 40px;
+    }
+
+    .about-first-item-image {
+        margin-left: unset;
+    }
+
+    .about-second-item {
+        display: flex;
+    }
+
+    .about-second-item-image {
+        position: unset;
+        top: unset;
+        left: unset;
+        order: 2;
+    }
+
+    .second-item-title, .second-item-description {
+        margin-left: unset;
+    }
+
+    .advantages-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .advantage, .advantage:nth-child(2) {
+        width: unset;
+    }
+
+    .order-container {
+        justify-content: center;
+    }
+
+    .order-info {
+        margin-right: 15px;
+    }
+
+    .location-map {
+        width: 460px;
+    }
+
+    .footer-container {
+        grid-template: 90px 50px / 230px 1fr 290px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .main-menu-list {
+        width: 500px;
+    }
+
+    .main-container {
+        margin-bottom: 220px;
+    }
+
+    .main-image {
+        width: 950px;
+        left: -140px;
+        top: 160px;
+    }
+
+    .order-info {
+        margin-right: unset;
+    }
+
+    .location-map {
+        display: none;
+    }
+
+    .location-map-small {
+        display: block;
+    }
+
+    .location-map-small img {
+        width: 135%;
+    }
+
+    .footer-container {
+        grid-template: 90px 50px / 160px 1fr 290px;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .main-image {
+        width: 840px;
+        left: -130px;
+        top: 200px;
+    }
+
+    .footer-container {
+        grid-template: 90px 50px / 140px 1fr 290px;
+    }
+
+    .work-time, .service-info {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url('../images/background-small.png');
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .main-container {
+        padding-top: 80px;
+    }
+
+    .main-info {
+        width: 530px;
+    }
+
+    .main-title {
+        font-size: 48px;
+    }
+
+    .main-discount::before {
+        top: 218px;
+    }
+
+    .main-image {
+        width: 770px;
+        top: 180px;
+    }
+
+    .about-container {
+        padding-top: 140px;
+    }
+
+    .about-title {
+        width: 360px;
+    }
+
+    .about-second-item-image {
+        width: 500px;
+    }
+
+    .order, .cars-container {
+        margin-bottom: 140px;
+    }
+
+    .order-title {
+        font-size: 25px;
+    }
+
+    .order-text {
+        max-width: 510px;
+    }
+
+    .order-actions {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advantages-container {
+        margin-bottom: 110px;
+    }
+
+    .call-button {
+        margin-bottom: 27px;
+    }
+
+    .cars-title {
+        top: 10px;
+    }
+
+    .car-slide-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .car-info {
+        margin-bottom: 20px;
+    }
+
+    .model {
+        margin-bottom: 12px;
+    }
+
+    .location-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 140px;
+        margin-bottom: 0;
+    }
+
+    .location-map-small {
+        align-self: center;
+        position: relative;
+        top: -100px;
+        left: -75px;
+    }
+
+    .footer-container {
+        grid-template: 4fr / 1fr;
+    }
+
+    .footer-logo {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    .footer-socials {
+        grid-row: 4 / 5;
+        grid-column: 1 / 1;
+    }
+
+    .footer-info {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        margin-bottom: 40px;
+    }
+
+    .footer-contacts {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+        margin-bottom: 33px;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .main-image {
+        width: 700px;
+        top: 200px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main-container {
+        padding-top: 60px;
+    }
+
+    .main-info {
+        width: 440px;
+    }
+
+    .main-image {
+        width: 120vw;
+        top: 220px;
+        overflow: hidden;
+    }
+
+    .main-image img {
+        width: 110%;
+    }
+
+    .about-container {
+        padding-top: 160px;
+        margin-bottom: 130px;
+    }
+
+    .about-title {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .about-first-item, .about-second-item {
+        align-items: flex-start;
+    }
+
+    .about-item-title {
+        font-size: 18px;
+        margin-left: 50px;
+        margin-bottom: 25px;
+    }
+
+    .about-item-title::before {
+        width: 27px;
+        left: -45px;
+    }
+
+    .about-item-description {
+        margin-left: 0;
+        width: 400px;
+    }
+
+    .about-first-item-image {
+        align-self: center;
+        width: 160px;
+    }
+
+    .about-second-item-image {
+        width: 450px;
+    }
+
+    .order-info {
+        padding: 37px 15px;
+    }
+
+    .advantages-container {
+        margin-bottom: 135px;
+    }
+
+    .cars-title {
+        top: -40px;
+    }
+
+    .car-slide-image {
+        display: none;
+    }
+
+    .car-slide-image-small {
+        display: block;
+    }
+
+    .location-map {
+        width: 500px;
+        left: 280px;
+    }
+
+    .modal-window {
+        width: 300px;
+        padding: 35px 35px 47px 35px;
+        box-sizing: unset;
+    }
+
+    .form-decoration-left {
+        top: 40px;
+    }
+
+    .form-close-icon {
+        right: -285px;
+    }
+
+    .form-title {
+        font-size: 30px;
+        width: 263px;
+        margin: 0 auto 40px auto;
+    }
+
+    .order-form {
+        font-size: 13px;
+    }
+
+    .form-name {
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+
+    .form-section {
+        width: 300px;
+        margin-bottom: 15px;
+        padding: unset;
+    }
+
+    .form-section-title {
+        font-size: 14px;
+    }
+
+    .form-section select, .form-section input, .form-section textarea, .error-placeholder {
+        width: 300px;
+    }
+
+    .term-inputs .term-start-input, .term-inputs .term-end-input, .term-error-placeholder {
+        width: 142px;
+    }
+
+    .form-section textarea::placeholder {
+        font-size: 13px;
+    }
+
+    .form-button {
+        padding: 13px 30px;
+    }
+
+    .privacy-policy {
+        width: 250px;
+    }
+
+    .form-success-message {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .main-container {
+        margin-bottom: 150px;
+    }
+
+    .main-info {
+        width: 400px;
+    }
+
+    .main-title {
+        display: none;
+    }
+
+    .main-title-small {
+        display: block;
+        font-size: 35px;
+        width: 288px;
+    }
+
+    .main-discount::before {
+        top: 152px;
+    }
+
+    .main-image {
+        width: 121vw;
+        top: 160px;
+        left: -104px;
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .about-title {
+        margin-bottom: 20px;
+    }
+
+    .about-item-title {
+        width: 210px;
+    }
+
+    .about-item-description {
+        font-size: 14px;
+        width: 370px;
+    }
+
+    .about-first-item-image {
+        width: 120px;
+    }
+
+    .about-second-item-image {
+        width: 400px;
+    }
+
+    .order {
+        padding: 0;
+        margin-bottom: 100px;
+        background-image: none;
+    }
+
+    .order-info {
+        padding: 37px 0;
+    }
+
+    .order-title {
+        margin-bottom: 40px;
+    }
+
+    .order-text {
+        margin-bottom: 30px;
+        width: 290px;
+    }
+
+    .advantages-title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .advantage-title {
+        font-size: 18px;
+        width: 180px;
+    }
+
+    .advantage-item {
+        font-size: 14px;
+        width: 268px;
+    }
+
+    .cars-container {
+        margin-bottom: 100px;
+    }
+
+    .cars-title {
+        font-size: 35px;
+    }
+
+    .model {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .call-button {
+        padding: 15px 34px;
+    }
+
+    .order-button {
+        padding: 15px 31px;
+    }
+
+    .rent-button {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+
+    .reviews-title {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .location-title {
+        font-size: 30px;
+        margin-bottom: 52px;
+    }
+
+    .address-info-item {
+        margin-bottom: 30px;
+    }
+
+    .location-map-small {
+        top: -80px;
+        left: -30px;
+    }
+
+    .location-map-small img {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .main-info {
+        width: 300px;
+    }
+
+    .main-image {
+        width: 122vw;
+        left: -98px;
+        top: 175px;
+    }
+
+    .about-container {
+        margin-bottom: 110px;
+    }
+
+    .about-item-description {
+        width: 340px;
+    }
+
+    .about-second-item-image {
+        width: 330px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-second-item-image img {
+        width: 115%;
+    }
+
+    .advantages-container {
+        margin-top: 100px;
+    }
+
+    .reviews-container {
+        margin-bottom: 100px;
+    }
+
+    .location-container {
+        margin-top: 0;
+    }
+
+    .address-info-item {
+        font-size: 14px;
+    }
+
+    .location-map-small {
+        left: 0;
+    }
+
+    .location-map-small img {
+        width: 100%;
+    }
+
+    .modal-window {;
+        padding: 35px 10px 47px 10px;
+    }
+
+    .form-close-icon {
+        right: -260px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 300px;
+    }
+
+    .main-image {
+        width: 300px;
+        transform: scale(1.3);
+        top: 230px;
+        left: -35px;
+    }
+
+    .main-title-small {
+        width: 285px;
+    }
+
+    .about-item-description {
+        width: 310px;
+    }
+
+    .about-second-item-image {
+        width: 280px;
+    }
+
+    .reviews-title {
+        text-align: left;
+    }
+
+    .location-map-small {
+        left: 0;
+    }
+
+    .work-time, .service-info, .footer-contacts-item {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-container {
+        margin-bottom: 110px;
+    }
+
+    /*.main-image {*/
+    /*    width: 122vw;*/
+    /*    top: 185px;*/
+    /*    left: -80px;*/
+    /*}*/
+
+    .about-item-description {
+        font-size: 14px;
+        width: 288px;
+    }
+}
